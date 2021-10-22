@@ -8,3 +8,4 @@ class IndicatorAdmin(admin.ModelAdmin):
                     "score", "narrative", "year")
     list_filter = ("scorecard_name", "year")
     search_fields = ["scorecard_name"]
+    list_editable = ("score", "narrative")
