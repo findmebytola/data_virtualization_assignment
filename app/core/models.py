@@ -5,6 +5,10 @@ class BookInfo(models.Model):
     title = models.CharField(max_length=255)
 
 
+class StudentInfo(models.Model):
+    title = models.CharField(max_length=255)
+
+
 class Indicator(models.Model):
 
     def __str__(self) -> str:
