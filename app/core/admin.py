@@ -10,8 +10,3 @@ class IndicatorAdmin(admin.ModelAdmin):
     search_fields = ["scorecard_name"]
     list_editable = ("step",
                      "score", "year")
-
-
-@admin.register(StudentInfo)
-class StudentAdmin(admin.ModelAdmin):
-    list_display = ['title']
